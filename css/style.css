@@ -1,0 +1,62 @@
+
+body {
+  background: black;
+}
+
+.left-column, .right-column {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExajhjdjhkcGx5ZDV3cHB3dmpsYXBtdjl2NHdrZGR6dzY3ZGZsc2VxdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/91pmJROMJK0kHBIbq7/giphy.gif');
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-color: #FFC161;
+}
+
+.left-column {
+  left: 0;
+}
+
+.right-column {
+  right: 0;
+}
+
+.clock {
+  position: relative;
+  text-align: center;
+  color: #FFC161;
+  font-size: 60px;
+  letter-spacing: 7px;
+  font-family:'Handjet', sans-serif;
+  font-weight: 200;
+}
+
+.text1 {
+  position: relative;
+  text-align: center;
+  color: #FFC161;
+  font-size: 50px;
+  letter-spacing: 7px;
+  font-family:'Handjet', sans-serif;
+}
+
+.text2 {
+  position: relative;
+  text-align: center;
+  color: #FFC161;
+  font-size: 40px;
+  letter-spacing: 7px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family:'Handjet', sans-serif;
+  font-weight: 200;
+}
+
+img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 20%;
+  align-items: center;
+}
